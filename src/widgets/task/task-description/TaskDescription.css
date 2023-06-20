@@ -1,0 +1,38 @@
+.task-description__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.115);
+  padding: 15px 5px;
+  font-size: 1.3rem;
+  overflow: scroll;
+  margin-bottom: 5px;
+}
+
+.task-description__container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.task-field__title {
+  min-width: 170px;
+  text-align: start;
+}
+.task-field__description {
+  min-width: 250px;
+  text-align: start;
+}
+.task-field__create {
+  min-width: 130px;
+  text-align: center;
+}
+.task-field__completed {
+  min-width: 60px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.task-field__buttons {
+  min-width: 80px;
+  text-align: end;
+  font-size: 1.3rem;
+}

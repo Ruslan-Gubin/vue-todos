@@ -1,0 +1,26 @@
+.layout-header__container {
+  background: rgba(95, 61, 133, 0.923);
+}
+.layout-header__navs {
+  display: flex;
+  align-items: center;
+}
+.layout-header__nav {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(229, 229, 229);
+  font-weight: 600;
+  padding: 10px 15px;
+  min-width: 190px;
+}
+.layout-header__nav:hover {
+  color: rgb(255, 255, 255);
+}
+.layout-header__link {
+  background-color: rgba(84, 69, 69, 0);
+  padding: 10px;
+}
+.layoutHeaderActive {
+  background-color: rgb(73, 64, 85);
+  padding: 10px;
+}

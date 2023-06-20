@@ -1,0 +1,49 @@
+.create-tasck__container {
+  max-width: 500px;
+}
+
+.create-tasck__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.create-tasck__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.create-tasck__group {
+  margin-bottom: 1rem;
+  margin-right: 10px;
+}
+
+.create-tasck__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.create-tasck__input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.create-tasck__submit {
+  margin-top: 6px;
+  padding: 7px 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create-tasck__submit:hover {
+  background-color: #0069d9;
+}
